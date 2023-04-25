@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+body{
+	background-image:
+		url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6YZgAcZZDjDOpawIWsCX2bPKU_VlgBekWjw&usqp=CAU");
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover;
+	
+}
+html{
+	background-image:
+		url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6YZgAcZZDjDOpawIWsCX2bPKU_VlgBekWjw&usqp=CAU");
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover;
+	
+}
+.box {
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 5px;
+	font-family: sans-serif;
+	text-align: center;
+	line-height: 1;
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(20px);
+	padding: 20px 40px;
+	position: absolute;
+  	top: 25%;
+}
+
+html{
+	height: 100%;
+	width: 100%;
+}
+.myhtml {
+	background-image: url(https://m.economictimes.com/thumb/msid-75668135,width-1200,height-900,resizemode-4,imgsize-172382/grocery-getty-f.jpg),
+		linear-gradient(rgb(219, 166, 166), rgb(0, 0, 172));
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	
+}
+
+
+
+
+
+.products{
+	
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+}
+.items {
+	float: center;
+	box-sizing: border-box;
+	margin: 10px;
+	padding: 10px;
+	border: 5px solid black;
+}
+
+.custContainer {
+	display: grid;
+	padding: 10px;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+	grid-template-columns: auto auto auto;
+	background-image:
+		url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6YZgAcZZDjDOpawIWsCX2bPKU_VlgBekWjw&usqp=CAU");
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover;
+}
+.searchPage{
+	display: grid;
+	padding: 10px;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+	grid-template-columns: 70% auto ;
+}
+
+#next{
+	width: 250px;
+	height: 30px;
+}
+
+.nextDivCheckOut{
+	margin: auto;
+	width: 20%;
+}
+.NotHeaderBody{
+	position: absolute;
+	top: 60px;
+	width: 100%;
+}
+
+
+
+#cartBody {
+	position: relative;
+	top: 60px;
+	height: 100%;
+}
+
+.products{
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+.checkOutImage{
+	float: right;
+}
+
+.nextDivCheckOut{
+	margin: auto;
+	width: 20%;
+}
+
+#checkOut{
+	width: 250px;
+	height: 30px;
+}
+
+
+
+
+table{
+	margin-left: auto;
+ 	margin-right: auto;
+}
+
+.Ask{
+	font-size: 36px;
+}
+
+
+.displayItems {
+	  
+	  border: 2px solid;
+	  border-collapse: collapse;
+}
+
+.displayItems th{
+	height: 75px;	
+	background-color: rgba(56, 194, 255, 0.3);
+	border: 2px solid;
+	border-collapse: collapse;
+}
+
+.displayItems td{
+	height: 75px;	
+	text-align:center;
+	border: 0.5px solid;
+	border-collapse: collapse;
+}
+
+.displayItems{
+	width: 100%;
+}
+
+.checkOutImage{
+	float: right;
+}
+

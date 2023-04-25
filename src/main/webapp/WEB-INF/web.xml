@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>ITLabAssignment</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+   
+  
+ <servlet>
+ 	<servlet-name>UserValidation</servlet-name>
+ 	<jsp-file>/SKV.jsp</jsp-file>
+ </servlet>
+ 
+ <servlet-mapping>
+ 	<servlet-name>UserValidation</servlet-name>
+ 	<url-pattern>/UserValidation</url-pattern>
+ </servlet-mapping>
+ 
+ 
+ 
+ 
+ <servlet>
+ 	<servlet-name>CreateAccount</servlet-name>
+ 	<jsp-file>/CreateAccount.jsp</jsp-file>
+ </servlet>
+ 
+ <servlet-mapping>
+ 	<servlet-name>CreateAccount</servlet-name>
+ 	<url-pattern>/CreateAccount</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+ 	<servlet-name>SKHomePage</servlet-name>
+ 	<jsp-file>/GSHomePage.jsp</jsp-file>
+ </servlet>
+ 
+ <servlet-mapping>
+ 	<servlet-name>SKHomePage</servlet-name>
+ 	<url-pattern>/SKHomePage</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+ 	<servlet-name>LogOut</servlet-name>
+ 	<jsp-file>/LogOut.jsp</jsp-file>
+ </servlet>
+ 
+ <servlet-mapping>
+ 	<servlet-name>LogOut</servlet-name>
+ 	<url-pattern>/LogOut</url-pattern>
+ </servlet-mapping>
+ 
+ 
+ <servlet>
+ 	<servlet-name>myCart</servlet-name>
+ 	<jsp-file>/myCart.jsp</jsp-file>
+ </servlet>
+ 
+ <servlet-mapping>
+ 	<servlet-name>myCart</servlet-name>
+ 	<url-pattern>/myCart</url-pattern>
+ </servlet-mapping>
+ 
+ 
+ <servlet>
+ 	<servlet-name>showCart</servlet-name>
+ 	<jsp-file>/showCart.jsp</jsp-file>
+ </servlet>
+ 
+ <servlet-mapping>
+ 	<servlet-name>showCart</servlet-name>
+ 	<url-pattern>/showCart</url-pattern>
+ </servlet-mapping>
+ 
+ 
+ 
+ 
+ <servlet>
+ 	<servlet-name>checkOut</servlet-name>
+ 	<jsp-file>/CheckOut.jsp</jsp-file>
+ </servlet>
+ 
+ <servlet-mapping>
+ 	<servlet-name>checkOut</servlet-name>
+ 	<url-pattern>/checkOut</url-pattern>
+ </servlet-mapping>
+ 
+ 
+ <servlet>
+ 	<servlet-name>RemoveFromCart</servlet-name>
+ 	<jsp-file>/RemoveFromCart.jsp</jsp-file>
+ </servlet>
+ 
+ <servlet-mapping>
+ 	<servlet-name>RemoveFromCart</servlet-name>
+ 	<url-pattern>/RemFromCart</url-pattern>
+ </servlet-mapping>
+ 
+ 
+ 
+ <servlet>
+ 	<servlet-name>RemoveFromItems</servlet-name>
+ 	<jsp-file>/RemoveFromItems.jsp</jsp-file>
+ </servlet>
+ 
+ <servlet-mapping>
+ 	<servlet-name>RemoveFromItems</servlet-name>
+ 	<url-pattern>/RemoveFromItems</url-pattern>
+ </servlet-mapping>
+ 
+ 
+ <servlet>
+ 	<servlet-name>DeliveryDone</servlet-name>
+ 	<jsp-file>/DeliveryDone.jsp</jsp-file>
+ </servlet>
+ 
+ <servlet-mapping>
+ 	<servlet-name>DeliveryDone</servlet-name>
+ 	<url-pattern>/DeliveryDone</url-pattern>
+ </servlet-mapping>
+ 
+ 
+</web-app>
